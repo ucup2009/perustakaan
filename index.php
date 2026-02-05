@@ -81,8 +81,7 @@ if(!isset($_SESSION['user'])){
             </li>
             <?php if($_SESSION['user']['level'] != 'peminjam') : ?>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="?page=kategori" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
+                <a class="nav-link collapsed" href="index.php?page=kategori" >
                     <i class="fa-solid fa-list fa-xs"></i>
                     <span>kategori</span>
                 </a>
@@ -340,7 +339,7 @@ if(!isset($_SESSION['user'])){
                      if(file_exists($page . '.php')){
                         include $page . '.php';
                      } else {
-                        include '404.php';
+                        include '404.php';                     
                      }
                      
                      
@@ -349,6 +348,7 @@ if(!isset($_SESSION['user'])){
                     </div>
 
                     <!-- Content Row -->
+                     
 
                     
 

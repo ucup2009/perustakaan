@@ -89,5 +89,32 @@
                                 </div>
                             </div>
                         </div>
+
+
+<div class="card-4">
+    <div class="card-body">
+        
+        <table class="table table-bordered">
+            <tr style ="border: 5px solid #000;">
+                <td width="150"  style="color: #000;"><strong>Nama</strong></td>
+                <td width="1" style="color: #000; border: 5px solid #000;">:</td>
+                <td width="200" style="color: blue;"><?php echo $_SESSION['user']['nama']; ?></td>
+            </tr>
+            <tr style ="border: 5px solid #000;">
+                <td width="150" style="color: #000;"><strong>Level User</strong></td>
+                <td width="1"style="color: #000; border: 5px solid #000;">:</td>
+                <td style="color: blue;"><?php echo $_SESSION['user']['level']; ?></td>
+            </tr>
+            <tr style ="border: 5px solid #000;">
+                <td width="150" style="color: #000; border: 5px solid #000;"><strong>Tanggal login</strong></td>
+                <td width="1" style="color: #000; border: 5px solid #000;">:</td>
+                <td style="color: blue;"><?php echo date('d-m-Y'); ?></td>
+
+
+        </table>
+    </div>
+</div>
 </body>
+
+
 </html>
