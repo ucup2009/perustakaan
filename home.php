@@ -94,7 +94,7 @@
 <div class="card-4">
     <div class="card-body">
         
-        <table class="table table-bordered">
+        <table class="table table-bordered table-responsive">
             <tr style ="border: 5px solid #000;">
                 <td width="150"  style="color: #000;"><strong>Nama</strong></td>
                 <td width="1" style="color: #000; border: 5px solid #000;">:</td>

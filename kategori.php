@@ -1,13 +1,13 @@
 <div class="w-100">
     <h1 class="mt-4">Kategori Buku</h1>
     <div class="mb-3 clearfix">
-         <?php if($_SESSION['user']['level'] != 'peminjam') : ?>
-         <a href="" class="btn btn-primary">tambah data </a>
-         <?php endif;  ?>
+        
+         <a href="?page=kategori_tambah" class="btn btn-primary">tambah data </a>
+         
         
     </div>
     <div class="clearfix">
-        <table class="table table-bordered">
+       <table class="table table-success table-striped">
             <thead>
                 <tr>
                     <th>No</th>
@@ -27,7 +27,7 @@
                         <td><?= $data['kategori']; ?></td>
                         <td>
                             <a href="?page=kategori_ubah&&id=<?= $data["id_kategori"]; ?> "class="btn btn-warning btn-sm">Edit</a>
-                            <a href="?page=kategori_hapus&&id=<?= $data["id_kategori"]; ?>" class="btn btn-danger btn-sm">Hapus</a>
+                            <a href="?page=kategori_hapus&&id=<?= $data["id_kategori"]; ?>" class="btn btn-outline-danger">Hapus</a>
                         </td>
                     </tr>
                 <?php endwhile; ?>
