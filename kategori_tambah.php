@@ -42,7 +42,7 @@
                         <div class="col-md-9 offset-md-3">
                             <button class="btn btn-outline-primary" type="submit" name="submit">Simpan</button>
                             <input class="btn btn-secondary" type="reset" value="Reset">
-                            <a href="?page=kategori" class="btn btn-danger">Kembali</a>
+                            <a href="?page=kategori" class="btn btn-danger"><i class="fa-solid fa-backward fa-xl" style="color: rgb(213, 6, 6);"></i></a>
                         </div>
                     </div>
 

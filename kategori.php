@@ -26,8 +26,8 @@
                         <td><?= $no++ ?></td>
                         <td><?= $data['kategori']; ?></td>
                         <td>
-                            <a href="?page=kategori_ubah&&id=<?= $data["id_kategori"]; ?> "class="btn btn-warning btn-sm">Edit</a>
-                            <a href="?page=kategori_hapus&&id=<?= $data["id_kategori"]; ?>" class="btn btn-outline-danger">Hapus</a>
+                            <a href="?page=kategori_ubah&&id=<?= $data["id_kategori"]; ?> "class="btn btn-warning btn-sm"><i class="fa-solid fa-pen" style="color: rgb(99, 230, 190);"></i></a>
+                            <a href="?page=kategori_hapus&&id=<?= $data["id_kategori"]; ?>" class="btn btn-outline-danger"><i class="fa-solid fa-trash fa-xl" style="color: rgb(213, 6, 6);"></i></a>
                         </td>
                     </tr>
                 <?php endwhile; ?>
