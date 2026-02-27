@@ -43,7 +43,7 @@ if(!isset($_SESSION['user'])){
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-success sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -89,8 +89,7 @@ if(!isset($_SESSION['user'])){
             <?php endif;  ?>
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="?page=buku" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
+                <a class="nav-link collapsed" href="index.php?page=buku">
                    <i class="fa-regular fa-book fa-xs"></i>
                     <span>buku</span>
                 </a>
@@ -101,6 +100,8 @@ if(!isset($_SESSION['user'])){
                     <span>ulasan</span>
                 </a>
             </li>
+            <strong>Level User</strong>
+            <?php echo $_SESSION['user']['level']; ?>
 
           
 
@@ -132,7 +133,7 @@ if(!isset($_SESSION['user'])){
                             <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
                                 aria-label="Search" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">
+                                <button class="btn btn-success" type="button">
                                     <i class="fas fa-search fa-sm"></i>
                                 </button>
                             </div>

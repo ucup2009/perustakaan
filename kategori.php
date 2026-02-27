@@ -2,12 +2,12 @@
     <h1 class="mt-4">Kategori Buku</h1>
     <div class="mb-3 clearfix">
         
-         <a href="?page=kategori_tambah" class="btn btn-primary">tambah data </a>
+         <a href="?page=kategori_tambah" class="btn btn-success  border border-4">tambah data </a>
          
         
     </div>
     <div class="clearfix">
-       <table class="table table-success table-striped">
+       <table class="table table-success table-striped table table-hover">
             <thead>
                 <tr>
                     <th>No</th>

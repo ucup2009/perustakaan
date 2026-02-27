@@ -1,7 +1,7 @@
 <div class="w-100">
     <h1 class="mt-4">Ubah Kategori</h1>
 
-    <div class="card">
+    <div class="car bg-success">
         <div class="card-body">
 
             <div class="col-md-12">

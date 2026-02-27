@@ -1,7 +1,7 @@
 <div class="w-100">
     <h1 class="mt-4">Kategori Buku</h1>
 
-    <div class="card">
+    <div class="card bg-success mb-3">
         <div class="card-body">
 
             <div class="col-md-12">
