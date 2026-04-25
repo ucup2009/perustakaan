@@ -12,10 +12,14 @@
                 <tr>
                     <th>No</th>
                     <th>judul</th>
-                    <th>penulis</th>
-                    <th>penerbit</th>
-                    <th>tahun terbit</th>
+                    <th>Nama Katergori</th>
                     <th>gambar</th>
+                    <th>Penulis</th>
+                    <th>tpenerbit</th>
+                    <th>Tahun terbit</th>
+                    <th>ISBN</th>
+                    <th>jumlah</th>
+                    <th>Sinopsis</th>
                      <th>aksi</th>
 
                 </tr>
@@ -30,10 +34,18 @@
                     <tr>
                         <td><?= $no++ ?></td>
                         <td><?= $data["judul"]; ?></td>
+                        <td><?= $data["id_kategori"]; ?></td>
+                        <td><?= $data["gambar"]; ?>
+
+
+                        
+                        </td>
                         <td><?= $data["penulis"]; ?></td>
                         <td><?= $data["penerbit"]; ?></td>
                         <td><?= $data["tahun_terbit"]; ?></td>
-                        <td><?= $data["gambar"]; ?></td>
+                        <td><?= $data["isbn"]; ?></td>
+                        <td><?= $data["jumlah"]; ?></td>
+                        <td><?= $data["sinopsis"]; ?></td>
                         
                         <td>
                             <a href="?page=buku/buku_ubah&&id=<?= $data["id_kategori"]; ?> "class="btn btn-warning btn-sm"><i class="fa-solid fa-pen" style="color: rgb(99, 230, 190);"></i></a>
